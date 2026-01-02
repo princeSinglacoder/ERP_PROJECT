@@ -8,5 +8,5 @@ def create_token(data):
     data["exp"] = datetime.utcnow() + timedelta(hours=3)
     return jwt.encode(data, SECRET_KEY, algorithm=ALGORITHM)
 
-def decode_token(token):
+def decode_token(token):fjhkswjekefh;ioi0[w'
     return jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
